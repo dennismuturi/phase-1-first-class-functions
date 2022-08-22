@@ -7,14 +7,14 @@ function func(){
 }
 
 function receivesAFunction(func){
-    func();
+   console.log(func());
 }
 
 function returnsANamedFunction(){
     myFunc();
 }
 
-function returnsANamedFunction(){
+function returnsAnAnonymousFunction() {
     return function(){
         
     };
